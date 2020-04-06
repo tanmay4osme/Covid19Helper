@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nitish.covd19"
+4    android:versionCode="3"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:4:5-79
+15-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:4:22-76
+16    <!--
+17 io.flutter.app.FlutterApplication is an android.app.Application that
+18         calls FlutterMain.startInitialization(this); in its onCreate method.
+19         In most cases you can leave this as-is, but you if you want to provide
+20         additional functionality it is fine to subclass or reimplement
+21         FlutterApplication and put your custom class here.
+22    -->
+23    <application
+23-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:10:5-31:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:11:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.0.0] /home/tanmay/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:13:9-43
+28        android:label="Covid-19" >
+28-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:12:9-33
+29        <activity
+29-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:14:9-25:20
+30            android:name="com.example.covd19.MainActivity"
+30-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:15:13-59
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:18:13-163
+32            android:hardwareAccelerated="true"
+32-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:19:13-47
+33            android:launchMode="singleTop"
+33-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:16:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:17:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:20:13-55
+36            <intent-filter>
+36-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:21:13-24:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:22:17-68
+37-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:22:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:23:17-76
+39-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:23:27-74
+40            </intent-filter>
+41        </activity>
+42        <!--
+43             Don't delete the meta-data below.
+44             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+45        -->
+46        <meta-data
+46-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:28:9-30:33
+47            android:name="flutterEmbedding"
+47-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:29:13-44
+48            android:value="2" />
+48-->/home/tanmay/Development/Flutter/Covid19LiveTrackerApp/android/app/src/main/AndroidManifest.xml:30:13-30
+49
+50        <activity
+50-->[:url_launcher] /home/tanmay/Development/Flutter/Covid19LiveTrackerApp/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+51            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+51-->[:url_launcher] /home/tanmay/Development/Flutter/Covid19LiveTrackerApp/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+52            android:exported="false"
+52-->[:url_launcher] /home/tanmay/Development/Flutter/Covid19LiveTrackerApp/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+53            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+53-->[:url_launcher] /home/tanmay/Development/Flutter/Covid19LiveTrackerApp/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+54    </application>
+55
+56</manifest>
